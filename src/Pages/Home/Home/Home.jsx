@@ -1,5 +1,6 @@
 import AboutTheExpo from "../AboutTheExpo/AboutTheExpo";
 import Banner from "../Banner/Banner";
+import ExpoObjectives from "../ExpoObjectives/ExpoObjectives";
 import InspiringExperience from "../InspiringExperience/InspiringExperience";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <InspiringExperience />
       <AboutTheExpo />
+      <ExpoObjectives />
     </div>
   );
 };
