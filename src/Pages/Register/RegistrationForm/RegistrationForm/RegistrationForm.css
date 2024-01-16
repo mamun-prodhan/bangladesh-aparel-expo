@@ -1,0 +1,3 @@
+.checkboxx:checked + span {
+  background: #231f20;
+}

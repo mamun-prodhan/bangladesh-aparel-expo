@@ -13,14 +13,14 @@ const Navbar = () => {
           <img src={logo} alt="bangladesh appearel expo logo" />
         </div>
         {/* for desktop screen*/}
-        <div className="hidden md:flex items-center gap-12">
-          <ul className="flex items-center gap-12">
+        <div className="hidden md:flex items-center gap-6 lg:gap-12">
+          <ul className="flex items-center gap-6 lg:gap-12">
             <Nav route="/" label="About" />
             <Nav route="/agenda" label="Agenda" />
             <Nav route="/speakers" label="Speakers" />
             <Nav route="/exhibitors" label="Exhibitors" />
           </ul>
-          <button className="px-[36px] py-[18px] font-semibold text-base text-[#231F20] border border-[#231F20] rounded-[8px] hover:bg-[#231F20] hover:text-white duration-300">
+          <button className="px-[24px] lg:px-[36px] py-[10px] lg:py-[18px] font-semibold text-base text-[#231F20] border border-[#231F20] rounded-[8px] hover:bg-[#231F20] hover:text-white duration-300">
             <Link to="/register">Register</Link>
           </button>
         </div>
