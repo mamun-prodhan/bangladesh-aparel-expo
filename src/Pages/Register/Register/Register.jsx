@@ -1,7 +1,9 @@
+import RegisterBanner from "../RegisterBanner/RegisterBanner";
+
 const Register = () => {
   return (
     <div>
-      <h2>This is register page</h2>
+      <RegisterBanner />
     </div>
   );
 };
